@@ -1,5 +1,4 @@
-# Practica de Python - iTECH
-# Escribe cada ejercicio mientras lo explicamos en clase.
+# Escribe cada ejercicio 
 
 # 1. Haz que Python muestre un saludo con print().
 
@@ -14,3 +13,4 @@
 
 # 4. Crea las variables precio y descuento.
 # Calcula el resultado y muestralo con print().
+
