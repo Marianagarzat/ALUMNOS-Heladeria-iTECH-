@@ -1,0 +1,23 @@
+CAMBIAR EL COLOR DE LA HELADERÍA
+
+Abre heladeria.py y busca la línea color.
+
+color = "#0F5EA8"
+
+Cambia únicamente el código entre comillas.
+Guarda el archivo con Ctrl + S (Windows) o Cmd + S (Mac).
+Regresa a la página y presiona Actualizar heladería.
+
+Colores de ejemplo:
+Azul:      #0F5EA8
+Naranja:   #FF8800
+Verde:     #22A06B
+Morado:    #8A2BE2
+Rojo:      #D83A40
+Turquesa:  #009EAA
+Rosa:      #E35492
+Negro:     #303030
+
+También pueden buscar otros colores en un selector de colores en internet.
+El código debe empezar con # y tener seis caracteres después de ese símbolo.
+No cambies el nombre de la variable color.

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi heladería | Taller iTECH</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="barra">
+    <div class="marca-grupo">
+      <span class="marca">iTECH</span>
+      <span class="separador"></span>
+      <span class="etiqueta">Taller de Python</span>
+    </div>
+    <span class="estado-top">Proyecto de heladería</span>
+  </header>
+
+  <main>
+    <section class="inicio">
+      <div class="texto-inicio">
+        <div class="tag">Proyecto personalizable</div>
+        <h1 id="nombre">Tu heladería</h1>
+        <p id="mensaje" class="subtitulo">Escribe un mensaje para tus clientes</p>
+        <div class="acciones">
+          <button id="actualizar" type="button">Actualizar heladería</button>
+          <span id="estado" role="status" aria-live="polite">Lista para personalizar</span>
+        </div>
+        <p class="nota">Edita <strong>heladeria.py</strong>, guarda los cambios y vuelve a presionar el botón.</p>
+      </div>
+      <div class="ilustracion" aria-label="Helado ilustrado">
+        <div class="fondo-circulo"></div>
+        <div class="bola bola-uno"></div>
+        <div class="bola bola-dos"></div>
+        <div class="bola bola-tres"></div>
+        <div class="cono"></div>
+        <div class="cara">•ᴗ•</div>
+        <div class="sombra"></div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="titulo-menu">
+        <div>
+          <span class="mini">Menú</span>
+          <h2>Nuestros sabores</h2>
+        </div>
+      </div>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <div class="emoji saborrosa">🍓</div>
+          <span class="categoria">Sabor 1</span>
+          <h3 id="sabor1">Tu primer sabor</h3>
+          <p>Una opción suave y refrescante.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="emoji saborchoco">🍫</div>
+          <span class="categoria">Sabor 2</span>
+          <h3 id="sabor2">Tu segundo sabor</h3>
+          <p>Ideal para quienes prefieren algo más intenso.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="emoji saborvainilla">🍦</div>
+          <span class="categoria">Sabor 3</span>
+          <h3 id="sabor3">Tu tercer sabor</h3>
+          <p>Una alternativa clásica y ligera.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div>
+        <span class="mini">Promoción</span>
+        <h2 id="especial">Tu promoción especial</h2>
+        <p>Gracias por visitar nuestra heladería.</p>
+      </div>
+      <div class="precio">
+        <span id="precio">$55</span>
+        <strong id="precio_final">$45 MXN</strong>
+        <small>Descuento: <span id="descuento">$10</span></small>
+      </div>
+    </section>
+  </main>
+
+  <footer>Creado con Python en el taller iTECH</footer>
+</body>
+</html>
